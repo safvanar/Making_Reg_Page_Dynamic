@@ -23,7 +23,7 @@ const user = {
     return new Promise((resolve) => {
       setTimeout(() => {
         posts.push(post);
-        resolve(post);
+        resolve();
       }, 1000); // Simulate a 1-second delay
     }).then(() => {
       // Call updateLastUserActivityTime after creating the post
